@@ -1,0 +1,8 @@
+
+<h1><%= @park.name %></h1>
+<h2>Admission Price: <%= @park.price %></h2>
+<h3>Rides: </h3>
+<% @aplpha_rides.each do |ride| %>
+  <%= ride.name %>
+  <hr>
+<%end %>

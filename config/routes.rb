@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   post "/mechanics/:id", to: "mechanic_rides#create"
   # post "/mechanics/:id/ride/:id", to: "mechanic_rides#create"
 
+  # get "/parks", to: "parks#index"
   get "/parks/:id", to: "parks#show"
 
 end

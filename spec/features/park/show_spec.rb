@@ -13,7 +13,7 @@ RSpec.describe 'As a user' do
       mechanic_1.rides << ride_1
       mechanic_1.rides << ride_2
       mechanic_1.rides << ride_3
-
+      mechanic_1.rides << ride_4
 
       visit "/parks/#{park_1.id}"
       save_and_open_page

@@ -4,4 +4,8 @@ class Ride < ApplicationRecord
 
   belongs_to :park
 
+  def self.alpha_sort
+    order(:name)
+  end
+
 end
